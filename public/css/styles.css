@@ -1,0 +1,65 @@
+body{
+
+    background-color: rgb(236, 236, 236);
+}
+
+.about-container {
+    margin-top: 5px;
+    margin-left: 5px;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 15px;
+    width: 220px;
+    z-index: 2;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    
+}
+
+.contact {
+    font-size: 1.2em;
+    color: #333;
+}
+
+.cad-container {
+    margin-top: 50px;
+    margin-left: 25%;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 15px;
+    width: 550px;
+    z-index: 2;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+    
+}
+
+.cont-container {
+    display: flex;
+    background-color: #c7c7c7;
+    box-shadow: -1px 1px 5px 1px #161616 inset;
+    flex-wrap: wrap;
+    gap: 0px;
+    height: 100%;
+    justify-content: space-between;
+    margin: 10px;
+    border-radius: 10px;
+  }
+
+
+
+.input-group {
+    margin-bottom: 1rem;
+    text-align: left;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 0.5rem;
+    color: #555;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 15px;
+}
